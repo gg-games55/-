@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психическое здоровье — информационный портал</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🧠</span>
+                <span class="logo-text">Mind<span>Info</span></span>
+            </div>
+            <nav>
+                <a href="#about">О проекте</a>
+                <a href="#disorders">Расстройства</a>
+                <a href="#help">Помощь</a>
+                <a href="#resources">Ресурсы</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Психическое здоровье</h1>
+            <p>Знания — первый шаг к пониманию и исцелению</p>
+            <div class="hero-badge">Более 30 расстройств в каталоге</div>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+
+            <!-- О проекте -->
+            <section id="about" class="section">
+                <h2>О проекте</h2>
+                <div class="about-text">
+                    <p>Этот сайт создан в <strong>информационных и образовательных целях</strong>. Мы собираем проверенную информацию о различных психических расстройствах, чтобы помочь людям лучше понимать себя и своих близких.</p>
+                    <p><strong>Важно:</strong> Сайт не заменяет консультацию специалиста. При любых подозрениях на психическое расстройство обращайтесь к врачу.</p>
+                </div>
+            </section>
+
+            <!-- Все расстройства -->
+            <section id="disorders" class="section">
+                <h2>Каталог психических расстройств</h2>
+                <p class="subtitle">Нажмите на категорию, чтобы узнать подробности</p>
+
+                <!-- Поиск -->
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="🔍 Поиск по названию или симптомам...">
+                </div>
+
+                <div class="disorders-grid" id="disordersGrid">
+                    <!-- Расстройства будут загружены из JavaScript -->
+                </div>
+            </section>
+
+            <!-- Помощь -->
+            <section id="help" class="section dark">
+                <h2>Куда обратиться за помощью</h2>
+                <div class="help-grid">
+                    <div class="help-card">
+                        <div class="help-icon">📞</div>
+                        <h4>Горячая линия</h4>
+                        <p>8-800-200-01-22 — круглосуточная психологическая помощь</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-icon">🏥</div>
+                        <h4>Психиатрическая помощь</h4>
+                        <p>Обратитесь к психиатру или психотерапевту в вашем городе</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-icon">💬</div>
+                        <h4>Группы поддержки</h4>
+                        <p>Онлайн- и офлайн-группы для людей с похожими переживаниями</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-icon">📱</div>
+                        <h4>Приложения</h4>
+                        <p>Приложения для медитации, отслеживания настроения и терапии</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ресурсы -->
+            <section id="resources" class="section">
+                <h2>Полезные ресурсы</h2>
+                <div class="resources-grid">
+                    <a href="#" class="resource-link">📖 Международная классификация болезней (МКБ-11)</a>
+                    <a href="#" class="resource-link">🧑‍⚕️ Найти психотерапевта в вашем городе</a>
+                    <a href="#" class="resource-link">📚 Книги по психическому здоровью</a>
+                    <a href="#" class="resource-link">🎓 Бесплатные курсы по психологии</a>
+                    <a href="#" class="resource-link">💬 Онлайн-консультации психологов</a>
+                </div>
+            </section>
+
+            <!-- Важное предупреждение -->
+            <section class="section warning">
+                <div class="warning-box">
+                    <span class="warning-icon">⚠️</span>
+                    <div>
+                        <h3>Важно знать</h3>
+                        <p>Психические расстройства — это <strong>медицинские диагнозы</strong>, а не «характер» или «слабость». Они <strong>поддаются лечению</strong>. Своевременное обращение к специалисту помогает быстрее вернуться к полноценной жизни.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 MindInfo — информационный портал о психическом здоровье</p>
+            <p class="footer-disclaimer">Сайт создан в информационных целях. Не заменяет профессиональную медицинскую помощь.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
